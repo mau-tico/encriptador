@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=a, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://css.gg/danger.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <header>
+      <img class="img-header" src="/img/logo.png" alt="logo" />
+    </header>
+    <main>
+      <form class="principal" action="">
+        <textarea name="" id="encriptar" cols="70" rows="10" placeholder="Ingrese el texto aquí" required></textarea>
+        <div class="fieldset">
+          <i class="gg-danger"></i>
+          <legend>Solo letras minúsculas y sin acentos</legend>
+        </div>
+        <div class="div-botones">
+          <input class="btn-encriptar" type="submit" value="Encriptar" />
+          <input class="btn-desencriptar" type="submit" value="Desencriptar" />
+        </div>
+      </form>
+
+      <form class="secundario" action="">
+        <div class="muneco"></div>
+        <textarea name="" id="mensaje" cols="70" rows="6" placeholder="Ningún mensaje fue encontrado"></textarea>
+        <legend class="legend">Ingresa el texto que desees encriptar o desencriptar</legend>
+        <input class="btn-copiar" type="submit" value="Copiar" />
+      </form>
+    </main>
+
+    <script src="/js/encriptador.js"></script>
+    <script src="/js/copiar.js"></script>
+    <script src="/js/desencriptar.js"></script>
+
+  </body>
+</html>

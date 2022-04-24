@@ -1,0 +1,250 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  background-color: #AAB2D5;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  text-align: left;
+  padding: 2.5rem 0 0 1.5rem;
+}
+
+.img-header {
+  width: 11%;
+}
+
+@media (min-width: 688px) {
+  .img-header {
+    width: 6%;
+  }
+}
+
+@media (min-width: 900px) {
+  .img-header {
+    width: 3%;
+  }
+}
+
+/* Inicio del Main*/
+@media (min-width: 900px){
+  main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 0;
+    -moz-column-gap: 0;
+  }
+}
+
+/*Inicio Formulario #1*/
+#encriptar {
+  margin-top: 7rem;
+  width: 85%;
+  font-size: 2.3rem;
+  border: none;
+  background-color: #AAB2D5;
+  outline: none;
+  text-transform: lowercase;
+}
+
+#encriptar::placeholder {
+  color: #0a3871;
+  font-size: 2.3rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+@media (min-width: 688px) {
+  #encriptar::placeholder {
+    text-align: left;
+  }
+}
+
+@media (min-width: 900px) {
+  #encriptar {
+    margin-bottom: 20%;
+  }
+}
+.fieldset {
+  width: 85%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gg-danger {
+  background-color: #495057;
+  color: #FFF;
+}
+
+.principal legend {
+  color: #495057;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+@media (min-width: 688px){
+  .div-botones {
+    display: grid;
+    margin-left: 6%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1%;
+    justify-content: space-evenly;
+  }
+
+}
+
+.btn-encriptar {
+  width: 85%;
+  padding: 2rem 0 2rem 0;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #0a3871;
+  border-radius: 25px;
+  border: none;
+  margin-bottom: 2rem;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+@media (min-width: 688px) {
+  .btn-encriptar {
+    margin-bottom: 0;
+  }
+}
+
+.btn-desencriptar {
+    width: 85%;
+    padding: 2rem 0 2rem 0;
+    font-size: 1.8rem;
+    color: #0a3871;
+    background-color: #AAB2D5;
+    border: 1.5px solid #0a3871;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.div-botones {
+    margin-bottom: 8%;
+}
+
+@media(min-width: 900px) {
+  .div-botones {
+    margin-bottom: 0;
+  }
+}
+
+/*Inicio Formulario #2*/
+@media (min-width: 900px) {
+  .muneco {
+    border: 1px solid #0a3871;
+    border-radius: 12px;
+    width: 85%;
+    margin-left: 7%;
+    height: 90%;
+    background-image: url(/img/muneco.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    background-color: #FFF;
+    margin-bottom: 2rem;
+}
+}
+
+@media (min-width: 688px){
+  .muneco {
+    height: 67%;
+    margin-bottom: 1rem;
+  }
+}
+
+#mensaje {
+  width: 85%;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  margin-bottom: 2rem;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+#mensaje::placeholder {
+  text-align: center;
+  color: #000;
+  font-size: 3rem;
+  font-weight: bold;;
+}
+
+@media (min-width: 688px) {
+  #mensaje {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 900px) {
+  #mensaje::placeholder {
+    font-size: 2.4rem;
+  }
+}
+
+legend {
+  width: 100%;
+  font-size: 2rem;
+}
+
+@media (min-width: 688px){
+  legend {
+    font-size: 1rem;
+  }
+}
+.btn-copiar {
+  margin-top: 1.5rem;
+  width: 85%;
+  padding: 2rem 0 2rem 0;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #0a3871;
+  border-radius: 25px;
+  border: none;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 688px) {
+  .btn-copiar {
+    width: 30%;
+  }
+}
+
+@media (min-width: 900px) {
+  .btn-copiar {
+    width: 70%;
+    padding: 1.5rem 0 1.5rem 0;
+  }
+}
+/*Fin Formulario #2*/
+
+/* Fin del Main*/
