@@ -61,6 +61,8 @@ const desencriptar = (event) => {
   let txtSalida = document.querySelector("#mensaje");
   let TXTnewTexto = newDesc;
   txtSalida.textContent = TXTnewTexto;
+  let borrar2 = document.querySelector(".principal");
+  borrar2.reset();
 };
 
 botonDesc.addEventListener("click", desencriptar);

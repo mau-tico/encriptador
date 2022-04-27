@@ -12,7 +12,8 @@ const copiar = (event) => {
     let campoCopiar = document.querySelector("#encriptar")
     let txtCopy = cpTexto;
     campoCopiar.textContent = cpTexto;
-
+    let borrar = document.querySelector(".secundario");
+    borrar.reset();
 
 }
 

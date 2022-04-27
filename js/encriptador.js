@@ -66,6 +66,8 @@ const validar = (event) => {
 
   } // Fin IF
   //FIN de Encriptacion
+  let borrar2 = document.querySelector(".principal");
+  borrar2.reset();
 };
 
 botonEncriptar.addEventListener("click", validar);
